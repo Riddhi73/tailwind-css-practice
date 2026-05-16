@@ -10,7 +10,9 @@ function App() {
         <p className="text-blue-500">Thomas</p>
       </div>
       <div className="bg-black text-white">Tailwind is great</div>
-      <div className="bg-[url('https://tse4.mm.bing.net/th/id/OIP.NGIDdVP6vw9ue_D-mrEVFQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3')] bg-no-repeat bg-cover h-screen"></div>
+      <div className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300">
+        we are learning
+      </div>
     </>
   );
 }
