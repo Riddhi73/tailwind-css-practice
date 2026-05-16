@@ -1,20 +1,17 @@
 function App() {
   return (
     <>
-      <div className="text-3xl font-bold underline">
-        <h1>Hello world!</h1>
+      <div className="flex bg-blue-500">
+        <div className="flex-1 border border-yellow-500">First Div 1</div>
+        <div className="flex-2 border border-pink-700">Second Div 2</div>
       </div>
-      <div>
-        <p className="text-red-500">Tom</p>
-        <p className="text-gray-500 text-center">Jerry</p>
-        <p className="text-blue-500">Thomas</p>
+      <div className="flex flex-col justify-center items-center">
+        <div>First</div>
+        <div>Second</div>
       </div>
-      <div className="bg-black text-white m-4 p-8">Tailwind is great</div>
-      <div className="bg-blue-800 text-white w-1/2 h-2/3">
-        Tailwind is great
-      </div>
-      <div className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300">
-        we are learning
+      <div className="grid grid-cols-3 gap-4">
+        <div className="col-span-2">First</div>
+        <div>Second</div>
       </div>
     </>
   );
