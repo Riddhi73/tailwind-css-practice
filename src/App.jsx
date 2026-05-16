@@ -9,6 +9,7 @@ function App() {
         <p className="text-gray-500 text-center">Jerry</p>
         <p className="text-blue-500">Thomas</p>
       </div>
+      <div className="bg-black text-white">Tailwind is great</div>
     </>
   );
 }
