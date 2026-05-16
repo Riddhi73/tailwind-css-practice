@@ -12,6 +12,9 @@ export default {
           800: "#123485",
         },
       },
+      fontFamily: {
+        custom: ["LWSFont", "Arial", "sans"],
+      },
     },
   },
   plugins: [],
